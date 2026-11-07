@@ -1,3 +1,4 @@
+successfully downloaded text file (SHA: d46fea794fd53e2409af484c2e9929668403fddc)
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
@@ -6,7 +7,7 @@
 
 &lt {
     tapping-term-ms = <200>;
-    flavor = "balanced";
+    flavor = "tap-preferred";
     quick-tap-ms = <150>;
 };
 
